@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a2a2a2</color>
+    <color name="colorPrimaryDark">#a2a2a2</color>
+    <color name="colorAccent">#f23724</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#1a1919</color>
+    <color name="divider_color">#a2a2a2</color>
+    <color name="heading_color">#1a1919</color>
+    <color name="red">#f23724</color>
+    <color name="transparent_black">#30000000</color>
+    <color name="alertColorBackground">#5f020202</color>
+</resources>

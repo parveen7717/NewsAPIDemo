@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/topPhotosHeading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="2dp"
+        android:text="35 stunning pictures of Aisha Sharma, Who is steaming up the cyberspace "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/artistImg1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:contentDescription="@null"
+        app:layout_constraintDimensionRatio="w,16:16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topPhotosHeading"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageButton
+        android:id="@+id/artistImg2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:contentDescription="@null"
+        app:layout_constraintDimensionRatio="w,16:16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topPhotosHeading"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageButton
+        android:id="@+id/artistImg3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:contentDescription="@null"
+        app:layout_constraintDimensionRatio="w,16:16"
+        app:layout_constraintEnd_toStartOf="@+id/artistImg1"
+        app:layout_constraintStart_toEndOf="@+id/artistImg2"
+        app:layout_constraintTop_toBottomOf="@+id/topPhotosHeading"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+</android.support.constraint.ConstraintLayout>
